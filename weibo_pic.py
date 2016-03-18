@@ -81,7 +81,7 @@ def download(page,all_pic_srcs):
 '..................................................................'
 home='http://weibo.cn/hu_ge'
 header = {
-    'Cookie':'_T_WM=4ca75ed2e5f6f18c56613a185a4caaa3; SUB=_2A2574QXzDeTxGeVG7FQV-CjLzzuIHXVZLau7rDV6PUJbstANLWumkW1LHes3SmR_UitqmjH-v0N4pZb25MGZdQ..; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WWhBT.mk9GzsK9zcsQ9G1YD5JpX5o2p; SUHB=0gHybP87-B3jLk; gsid_CTandWM=4uDDCpOz5Zxg8S1sGL8R2ggrYc3'
+    'Cookie':'??'
 }
 folder='d:\胡歌\\'
 
