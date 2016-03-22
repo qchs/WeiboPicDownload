@@ -71,8 +71,8 @@ print(r.text)#sinaSSOController.preloginCallBack(
 # "is_openlock":0,
 # "showpin":0,#不为0的时候是需要输入验证码
 # "exectime":10})
-username = '780794847@qq.com'  #这个都能写错，我也是醉了
-password = 'wsqszsq302'
+username = '###@qq.com'  #这个都能写错，我也是醉了
+password = '###'
 agent = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36'
 header ={
     'User-Agent':agent
