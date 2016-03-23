@@ -141,8 +141,8 @@ def get_post_data(dict):
 
 
 # if __name__ = '__main__':
-username = '780794847@qq.com'  #这个都能写错，我也是醉了
-password = 'wsqszsq302'
+username = '####'  #这个都能写错，我也是醉了
+password = '####'
 agent = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36'
 header ={
     'User-Agent':agent
@@ -215,7 +215,7 @@ print(my_cookies)#<RequestsCookieJar[<Cookie wvr=6 for .weibo.com/>, <Cookie TC-
 # print(webs.text)
 #
 home = 'http://weibo.cn/myhomedeco'
-h = requests.get(home,cookies = my_cookies)
+h = requests.get(home,cookies = my_cookies)#试试加上headers,再试试用.join()把所有获得的cookies合并到一起
 print('home url is: %s'%h.url)
 print(h.text)#还是没登陆上
 # print(web.encoding)
